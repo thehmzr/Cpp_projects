@@ -1,0 +1,33 @@
+
+#include <iostream>
+using namespace std;
+
+int sum(int num1, int num2);
+double sum(double num1, double num2);
+int sum(float num1, float num2, float num3);
+
+
+int main()
+{
+	
+	cout << sum(52, 55) << endl;
+	cout << sum(4.4, 5.1) << endl;
+	cout << sum(4.44, 5.1, 2.3);
+	
+	system("pause>0");
+}
+
+
+int sum(int num1, int num2) {
+	return num1 + num2;
+}
+
+
+double sum(double num1, double num2) {
+	return num1 + num2;
+}
+
+
+int sum(float num1, float num2,float num3) {
+	return num1 + num2 + num3;
+}
